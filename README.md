@@ -3,7 +3,7 @@
 
 
 Overview : 
-1.	Created AWS RDS(MySQL) instance and accessed via EC2 instance.
+1.	Created AWS RDS(MySQL) instance and accessed via EC2 <b>instance</b>.
 2.	Created Replication Instance, Source Endpoint, Destination Endpoint.
 3.	Created Database Migration Task and migrate Database from source database to destination database.
 4.	Migrate MySQL database that exists on the EC2 instance to AWS RDS Instance

@@ -13,38 +13,35 @@
 ## Detail Process
 ### I. Create an Amazon RDS Database
 
-MySQL database
-Region : <b> N.Virginia </b>
-DB Details: 
-•	Database creation method : Standard
-•	Engine options           :  MySQL
-•	Version                       : Default
-•	Templates                   : Free tier
-•	DB instance identifier    :  dbinstance
-•	Master username.         : dbsuser
-•	Master password and Confirm password: Enter dbpassword321
-•	DB instance class        : Burstable classes db.t2.micro — 1 vCPUs, 1 GiB RAM
-•	Storage type            : General Purpose SSD (gp2)
-•	Allocated storage        : 20 (default)
-•	storage autoscaling     : Uncheck
-•	Vitual Private Cloud(VPC) : Default VPC
-•	Subnet group : Default
-•	Public Access : No
-•	VPC Security groups :  existing 
-•	Existing VPC security group name : dbMigration-SG
-Additional Configuration options
-•	Initial database name: Enter myrdsdatabase
-•	DB parameter group: default
-•	Option group: default
-•	automated backups: uncheck
-•	Enhanced monitoring: uncheck
-•	Auto minor version upgrade: uncheck
-•	Maintenance window: No preference
-•	Deletion protection: uncheck
-•	Keep parameters as default. Scroll to the bottom of the page, 
-Click Create database.
-•	It will take around 5 minutes for the database to become available. Once the status changes from creating to the available, the database is ready.
-•	Endpoint: dbinstance.c81x4bxxayay.us-east-1.rds.amazonaws.com
-
-
-
+MySQL database <br>
+Region : <b> N.Virginia </b><br>
+ </b><br>
+•	Database creation method : <b>Standard</b><br>
+•	Engine options           :  <b>MySQL</b><br>
+•	Version                       : <b>Default</b><br>
+•	Templates                   : <b>Free tier</b><br>
+•	DB instance identifier    :  <b>dbinstance</b><br>
+•	Master username.         : <b>dbsuser</b><br>
+•	Master password and Confirm password: dbpassword321</b><br>
+•	DB instance class        : <b>Burstable classes db.t2.micro — 1 vCPUs, 1 GiB RAM</b><br>
+•	Storage type            : <b>General Purpose SSD (gp2)</b><br>
+•	Allocated storage        : <b>20 (default)</b><br>
+•	storage autoscaling     : <b>Uncheck</b><br>
+•	Vitual Private Cloud(VPC) : <b>Default VPC</b><br>
+•	Subnet group : <b>Default</b><br>
+•	Public Access : <b>No</b><br>
+•	VPC Security groups :  <b>existing </b><br>
+•	Existing VPC security group name : <b>dbMigration-SG</b><br>
+Additional Configuration options</b><br>
+•	Initial database name: <b>Enter myrdsdatabase</b><br>
+•	DB parameter group: <b>default</b><br>
+•	Option group: <b>default</b><br>
+•	automated backups: <b>uncheck</b><br>
+•	Enhanced monitoring: <b>uncheck</b><br>
+•	Auto minor version upgrade: <b>uncheck</b><br>
+•	Maintenance window: <b>No preference</b><br>
+•	Deletion protection: <b>uncheck</b><br>
+Keep parameters as default. Scroll to the bottom of the page, </b><br>
+Click Create database.</b><br>
+•	It will take around 5 minutes for the database to become available. Once the status changes from creating to the available, the database is ready.</b><br>
+•	Endpoint: <b>dbinstance.c81x4bxxayay.us-east-1.rds.amazonaws.com</b><br>

@@ -1,5 +1,5 @@
 # DBmigration
-Migrate database from AWS EC2 to RDS
+##Migrate MySQL database from AWS EC2 to RDS
 
 
 Overview : 

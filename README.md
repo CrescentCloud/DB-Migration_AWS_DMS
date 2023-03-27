@@ -70,6 +70,3 @@ It will take 5 minutes for replication instance to be created. Status will chang
 From dbreplicationinstance  Details section, private & public IP address need to be noted
 •	Public IP address : <b>3.224.227.68</b><br>
 •	Private IP address :<b> 172.31.29.148</b><br>
-
-
-
